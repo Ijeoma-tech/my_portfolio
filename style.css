@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Header */
+header {
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+header p {
+  font-size: 1.5rem;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 50px 0;
+}
+
+#skills .list-group-item {
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+/* Works Section */
+#works {
+  padding: 50px 0;
+}
+
+#works img {
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#works img:hover {
+  transform: scale(1.05);
+}
+
+/* CV Download Section */
+#cv {
+  background-color: #f0f8ff;
+  padding: 50px 0;
+}
+
+#cv .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+/* GitHub Section */
+#github {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+#github .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #0073e6;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
